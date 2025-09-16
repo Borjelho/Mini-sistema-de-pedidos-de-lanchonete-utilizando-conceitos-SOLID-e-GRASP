@@ -1,6 +1,9 @@
 
 # Mini-Serviço de Pedidos (Java)
 
+    - Mini-projeto criado a partir de uma atividade proposta na faculdade, como intuito de aprender e aplicar padrões GRASP e princípios SOLID.
+
+
 📌 Objetivo
 
 - Implementar, em Java, um mini-serviço para gerenciar pedidos de uma lanchonete.
