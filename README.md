@@ -34,7 +34,7 @@ Adicionar/Remover item
 
 - Adicionar item com: produto, preçoUnit, quantidade;
 
-Remover item por id do item.
+- Remover item por id do item.
 
 Total do pedido
 
