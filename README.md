@@ -1,7 +1,7 @@
 
 # Mini-Serviço de Pedidos (Java)
 
-    - Mini-projeto criado a partir de uma atividade proposta na faculdade, como intuito de aprender e aplicar padrões GRASP e princípios SOLID.
+Mini-projeto criado a partir de uma atividade proposta na faculdade, como intuito de aprender e aplicar padrões GRASP e princípios SOLID.
 
 
 📌 Objetivo
@@ -26,42 +26,42 @@ Cada pedido:
 
 ✅ Requisitos Funcionais
 
-RF1: Criar pedido
+Criar pedido
 
 - Criar um pedido vazio com identificador único e status ABERTO.
 
-RF2: Adicionar/Remover item
+Adicionar/Remover item
 
 - Adicionar item com: produto, preçoUnit, quantidade;
 
 Remover item por id do item.
 
-RF3: Total do pedido
+Total do pedido
 
 - Calcular subtotal = Σ(preçoUnit × qtd);
 
 - Calcular total considerando desconto (se houver).
 
-RF4: Desconto (estratégia)
+Desconto (estratégia)
 
 - Suportar DescontoPercentual(%) e DescontoValorFixo(R$);
 
 - Um pedido pode ter no máximo um desconto ativo.
 
-RF5: Pagamento (estratégia)
+Pagamento (estratégia)
 
 - Suportar Cartão de Crédito e Pix;
 
 - Em caso de sucesso, alterar status do pedido para PAGO.
 
-RF6: Finalizar pedido (recibo)
+Finalizar pedido (recibo)
 
 - Gerar recibo textual com: itens, subtotal, desconto, total, forma de pagamento e timestamp.
 
-RF7: Persistência simples
+Persistência simples
 
 - Salvar e recuperar pedidos via repositório em memória (fake).
 
-RF8: Notificação opcional
+Notificação opcional
 
 - Após o pagamento, enviar confirmação ao cliente.
